@@ -16,4 +16,17 @@ const hundreds = 1000000
 
 //-----------Math---------------//
 
-console.log(Math)
+console.log(Math)   
+console.log(Math.abs(4));             //4
+console.log(Math.round(4.9));         //5
+
+console.log(Math.ceil(4.3));           //5
+
+console.log(Math.min(4,7,8,9,5));            //4
+
+console.log(Math.random());        //print random no
+
+const min = 10 
+const max = 30 
+
+console.log(Math.floor(Math.random() * (max-min + 1)) + min);
